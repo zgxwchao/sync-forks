@@ -14,7 +14,7 @@ jobs:
       uses: danshui-git/github-forks-sync-action@main
       with:
         github_token: ${{ secrets.REPO_TOKEN }}
-        upstream_repository: 281677160/8888888888
+        upstream_repository: db-one/adg
         upstream_branch: main
         target_repository: 281677160/AdGuardHome     #修改成你的帐号/仓库名字
         target_branch: main                                #你仓库的分支
